@@ -2,14 +2,14 @@
 
 The code is available in TD3 folder.
 The simulation environment is created using following dependencies:
-  1. Ubuntu 20.04
+ ``` 1. Ubuntu 20.04
   2. Ros Noetic
   3. Python 3.8.10
   4. Libraries Used:
 
     Pytorch 1.10
     Tensorboard
-  
+  ```
 Instructions to create a simulation environment and complete the training process:
   1. Install Ubuntu 20.04 and Install Ros Noetic
   2. Copy and paste the necessary files attached to this assignment in any directory.
