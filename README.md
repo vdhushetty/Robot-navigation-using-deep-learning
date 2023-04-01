@@ -2,7 +2,8 @@
 
 The code is available in TD3 folder.
 The simulation environment is created using following dependencies:
- ``` 1. Ubuntu 20.04
+ ``` 
+  1. Ubuntu 20.04
   2. Ros Noetic
   3. Python 3.8.10
   4. Libraries Used:
