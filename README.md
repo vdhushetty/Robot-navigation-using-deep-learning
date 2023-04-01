@@ -6,9 +6,8 @@ The simulation environment is created using following dependencies:
   2. Ros Noetic
   3. Python 3.8.10
   4. Libraries Used:
-
-    Pytorch 1.10
-    Tensorboard
+   a. Pytorch 1.10
+   b. Tensorboard
   ```
 Instructions to create a simulation environment and complete the training process:
   1. Install Ubuntu 20.04 and Install Ros Noetic
