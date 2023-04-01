@@ -38,7 +38,7 @@ python3 train_velodyne_td3.py
   ```
 6. We can see the Rviz is opened, and training process has been started and robot with laser equipped reads the environment and starts moving.
 
-8. To see the 3D simulation of robot navigating training process in gazebo by running following command in another terminal:
+7. To see the 3D simulation of robot navigating training process in gazebo by running following command in another terminal:
 ```
   Run gzclient
   ```
@@ -48,9 +48,11 @@ python3 train_velodyne_td3.py
   tensorboard --logdir runs
   ```
   After running following commands, hold CTRL and simply click on <http://localhost:6006/> and the page will open automatically.
-9. After completing the training, to test the network:
 
+9. After completing the training, to test the network:
+```
   Run python3 test_velodyne_TD3
+```
 10. To stop training, Press CTRL + C in a terminal where training started and run following command to kill all the running processes:
 ```
   killall -9 rosout roslaunch rosmaster gzserver nodelet robot_state_publisher gzclient python python3
