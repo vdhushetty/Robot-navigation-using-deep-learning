@@ -6,17 +6,20 @@ The simulation environment is created using following dependencies:
   2. Ros Noetic
   3. Python 3.8.10
   4. Libraries Used:
-    a. Pytorch 1.10
-    b. Tensorboard
+
+    Pytorch 1.10
+    Tensorboard
   
 Instructions to create a simulation environment and complete the training process:
   1. Install Ubuntu 20.04 and Install Ros Noetic
   2. Copy and paste the necessary files attached to this assignment in any directory.
   3. Open terminal and RUN following commands:
-    a. cd Folder_name/catkin_ws
-    b. catkin_make_isolated
+
+    cd Folder_name/catkin_ws
+    catkin_make_isolated
     
 4. To run the neural network training in ROS, some variables first need to be exported and sourced. This can be done by executing the following lines in the terminal:
+
   export ROS_HOSTNAME=localhost
   export ROS_MASTER_URI=http://localhost:11311
   export ROS_PORT_SIM=11311
@@ -41,9 +44,13 @@ Instructions to create a simulation environment and complete the training proces
   tensorboard --logdir runs
   After running following commands, hold CTRL and simply click on <http://localhost:6006/> and the page will open automatically.
 9. After completing the training, to test the network:
+
   Run python3 test_velodyne_TD3
 10. To stop training, Press CTRL + C in a terminal where training started and run following command to kill all the running processes:
+
   killall -9 rosout roslaunch rosmaster gzserver nodelet robot_state_publisher gzclient python python3
+  
 11. Install any additional Python dependencies to run training process by installing pip3:
+
   Run sudo apt install python3-pip
   Run pip3 install <python_package_name>
