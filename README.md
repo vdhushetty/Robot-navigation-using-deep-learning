@@ -23,7 +23,7 @@ Instructions to create a simulation environment and complete the training proces
   export ROS_HOSTNAME=localhost
   export ROS_MASTER_URI=http://localhost:11311
   export ROS_PORT_SIM=11311
-  export GAZEBO_RESOURCE_PATH = EEE598_Project/catkin_ws/catkin_ws/src/multi_robot_scenario/launch
+  export GAZEBO_RESOURCE_PATH = Folder_name/catkin_ws/catkin_ws/src/multi_robot_scenario/launch
   source ~/.bashrc
   cd Folder_name/catkin_ws
   source devel_isolated/setup.bash
