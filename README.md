@@ -60,5 +60,5 @@ python3 train_velodyne_td3.py
 11. Install any additional Python dependencies to run training process by installing pip3:
 ```
   Run sudo apt install python3-pip
-  Run pip3 install <python_package_name>```
+  Run pip3 install <python_package_name>
   
